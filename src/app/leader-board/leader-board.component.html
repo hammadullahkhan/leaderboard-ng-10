@@ -1,0 +1,25 @@
+<div class="leader-board-box">
+   
+    <div class="data-row">
+        <div class="data-item flex-2 col-right data-name">
+            <button class="reset-button" (click)="resetPoints()">Reset</button>
+        </div>
+    </div>
+
+    <!-- <div *ngFor="let item of leaderBoard | SortBy:sortColumn:isDesc" class="data-row">-->
+    <div *ngFor="let item of leaderBoard | SortBy:'-points':'name'" class="data-row">
+        <div class="data-item flex-2 col-right data-name">
+            {{item.name}}
+        </div>
+        <div class="data-item flex-1">
+            <button class="action-button" (click)="incrementPoints(item)">+</button>
+        </div>
+        <div class="data-item flex-1">
+            <button class="action-button" (click)="decrementPoints(item)">-</button>
+        </div>
+        <div class="data-item flex-2 col-center">
+            {{item.points}}&nbsp;&nbsp;{{item.pointsLabel}}
+        </div>                
+    </div>
+
+</div>
