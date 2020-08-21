@@ -3,10 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 
 ## GitHub Deployed
-https://hammadullahkhan.github.io/leaderboard-ng10/
+https://hammadullahkhan.github.io/leaderboard-ng-10/
 
 ## GitHub Repository
-https://github.com/hammadullahkhan/leaderboard-ng10
+https://github.com/hammadullahkhan/leaderboard-ng-10
 
 ## Development server
 
